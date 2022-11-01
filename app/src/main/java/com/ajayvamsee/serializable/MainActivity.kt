@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
             val intent = Intent(this,MainActivity2::class.java)
 
+            // created Serializable class a object
             val passingObj = MyObject()
             passingObj.id = 1
             passingObj.place = "India"
